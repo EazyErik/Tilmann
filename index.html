@@ -44,7 +44,7 @@ input[type=text]:focus,input[type=email]:focus,textarea:focus{border-color:#8A64
 .bigimg{height:380px}
 .wrap{padding:0 24px}
 }
-@media (max-width:640px){.cards{grid-template-columns:minmax(0,1fr)}.stats{grid-template-columns:minmax(0,1fr)}.stat + .stat{border-left:0;border-top:1px solid rgba(201,164,92,.45)}.formrow{grid-template-columns:minmax(0,1fr)}.hero-brand{flex-direction:column;align-items:flex-start}}
+@media (max-width:640px){.cards{grid-template-columns:minmax(0,1fr)}.stats{grid-template-columns:minmax(0,1fr)}.stat + .stat{border-left:0;border-top:1px solid rgba(201,164,92,.45)}.formrow{grid-template-columns:minmax(0,1fr)}.hero-brand{flex-direction:column;align-items:flex-start}#hero-title{font-size:44px !important}}
 [hidden]{display:none !important}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 </style>
@@ -100,10 +100,12 @@ input[type=text]:focus,input[type=email]:focus,textarea:focus{border-color:#8A64
 </div>
 </section>
 
-<section aria-labelledby="loesung-title" style="padding: 96px 0; background: linear-gradient(160deg,#F3EADB 0%,#E9DCC3 100%); border-bottom: 3px solid #C9A45C">
-<div class="wrap two" style="align-items: start">
+<section aria-labelledby="loesung-title" style="position: relative; overflow: hidden; padding: 112px 0; background: #FFFFFF">
+<img src="assets/img/strasse.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; opacity: .32">
+<div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(90deg,rgba(255,255,255,.75) 0%,rgba(255,255,255,.35) 50%,rgba(255,255,255,.75) 100%)"></div>
+<div class="wrap two" style="position: relative; align-items: start">
 <div style="display: flex; flex-direction: column; gap: 14px">
-<p style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-weight: 600; font-size: 22px; color: #7A561A">Ohne Provision. Höchst diskret.</p>
+<p style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-weight: 600; font-size: 22px; color: #8A6420">Ohne Provision. Höchst diskret.</p>
 <h2 id="loesung-title" style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; font-size: 50px; line-height: 1.06; color: #0E1F3A">Die Lösung: der Verkauf direkt an THI</h2>
 </div>
 <div style="display: flex; flex-direction: column; gap: 18px; padding-top: 40px">
@@ -113,7 +115,7 @@ input[type=text]:focus,input[type=email]:focus,textarea:focus{border-color:#8A64
 </div>
 </section>
 
-<section style="padding: 104px 0 96px; background: #F5F6F8">
+<section style="padding: 104px 0 96px; background: #F5F6F8; border-top: 1px solid rgba(201,164,92,.45)">
 <div class="wrap two" style="align-items: start">
 <div style="display: flex; flex-direction: column; gap: 14px">
 <p style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-style: italic; font-weight: 600; font-size: 22px; color: #8A6420">Schnell. Seriös. Verlässlich.</p>
